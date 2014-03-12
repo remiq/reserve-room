@@ -1,0 +1,7 @@
+{
+    "rooms": {
+        "a": "Room A",
+        "b": "Room B",
+        "big_c": "Big room C"
+    }
+}

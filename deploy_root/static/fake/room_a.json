@@ -1,0 +1,23 @@
+{
+    "reservations": [
+        {
+            "startTime": "1394661789",
+            "endTime": "1394861789",
+            "who": {
+                "name": "Mark",
+                "hash": "12345"
+            },
+            "description": "Discussing new feature",
+            "followers": [
+                {
+                    "name": "John",
+                    "hash": "abcd"
+                },
+                {
+                    "name": "Ann",
+                    "hash": "efgh"
+                }
+            ]
+        }
+    ]
+}

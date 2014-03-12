@@ -1,0 +1,23 @@
+{
+  "name": "reserve-room",
+  "version": "0.0.1",
+  "moduleType": [
+    "node"
+  ],
+  "authors": [
+    "Remigiusz Jackowski"
+  ],
+  "license": "BSD",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1",
+    "requirejs": "~2.1.11"
+  }
+}
