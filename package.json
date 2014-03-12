@@ -9,5 +9,8 @@
   "repository": "",
   "author": "Remigiusz Jackowski",
   "license": "BSD",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "connect": "~2.14.2"
+  }
 }
