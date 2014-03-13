@@ -3,6 +3,10 @@ define (require, exports, module) ->
 
   Backbone = require "backbone"
   $ = require "jquery"
+  roomList = require "roomList"
+  room = require "room"
+
+  roomList.init()
 
   module.exports = Backbone.Router.extend {
     routes:
@@ -12,5 +16,7 @@ define (require, exports, module) ->
       console.log "index"
     room: (roomId) ->
       console.log "roomId: " + roomId
+      roomList.setActive(roomId);
+      room.init(roomId)
 
   }
